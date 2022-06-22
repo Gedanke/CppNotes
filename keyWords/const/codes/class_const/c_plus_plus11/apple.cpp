@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <list>
+
+using namespace std;
+
+class Apple
+{
+private:
+    vector<int> people;
+
+public:
+    static const int apple_num = 10;
+    Apple(int i);
+    void take(int num) const;
+    void add(int num);
+    void add(int num) const;
+    int getCount() const;
+};
